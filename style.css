@@ -1,0 +1,80 @@
+body{
+    background: #c7ccd1;
+    margin-left: 60px;
+    margin-top: 20px;
+ 
+}
+
+main{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+.texto{
+    
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 150%;
+    border-radius: 20px;
+}
+
+
+.botones,p{
+    text-align: center;
+    
+}
+
+.botonEncrip{
+    width: 200px;
+    height: 40px;   
+    font-size: 20px; 
+    background: #0f3666; 
+    border: none;
+    border-radius: 40px;
+   
+  
+}
+
+.botonDesen{
+    width: 200px;
+    height: 40px;  
+    font-size: 20px;
+    background: #D8DFE8;
+    border-radius: 40px;
+    border:1px solid #0f3666;
+ 
+}
+
+.msn{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    margin-left: 10px; 
+    border-radius: 20px;
+    background-image: url(IMAGENES/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 300px;
+    padding: 10px;
+    font-size: 32px;
+    
+    
+}
+.botonCopy{
+    margin-left: 130px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: #0f3666;
+ 
+ 
+}
+.copyRigth{  
+    text-align: center;
+}

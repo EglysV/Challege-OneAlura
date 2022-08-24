@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <img src="IMAGENES/Logo.png" alt="logo alura">
+
+</header>
+
+<body>
+    <main>
+        <section>
+
+            <textarea type="text" rows="8" cols="40" placeholder="Ingrese aqui el texto" class="texto" ></textarea>
+
+            <P>! Solo letras minúsculas y sin acentos</P>
+            <div class="botones">
+                <button class="botonEncrip" onclick="botonEncriptar()">Encriptar</button>
+                <button class="botonDesen" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+
+        </section>
+          
+
+        <section>
+            <textarea type="text" rows="8" cols="18" class="msn"></textarea>
+            <button class="botonCopy" onclick="copiar()">Copiar</button>
+             
+        </section>
+
+
+    </main>
+
+    <footer>
+        <P class="copyRigth">&copy Copyright Eglys Velasquez 2022</P>
+    </footer>
+
+    <script src="./script.js"> </script>
+</body>
+</html>
